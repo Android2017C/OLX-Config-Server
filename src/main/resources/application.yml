@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Android2017C/olx-config
+          username: Android2017C
+          password: cnureddy89
+          clone-on-start: true
+
+server:
+  port: 8888
